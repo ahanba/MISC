@@ -1,6 +1,6 @@
 # Misc
 
-## htmlTable2XLX.rb
+## htmlTable2XLS.rb
 
 ### Description
 This script converts HTML tables to an XLS file.
