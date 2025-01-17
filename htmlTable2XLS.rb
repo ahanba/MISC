@@ -98,19 +98,10 @@ def writeXLS(html)
     excel = WIN32OLE.new('Excel.Application')
     book = excel.Workbooks.Add()
     book.Sheets("Sheet1").Select
-    book.Sheets("Sheet1").Name = "properties"
+    book.Sheets("Sheet1").Name = "keys"
     book.Sheets.Add(After: book.ActiveSheet)
-    book.Sheets("Sheet2").Select
-    book.Sheets("Sheet2").Name = "plurals"
 
-    sheet = book.Sheets("plurals")
-    sheet.Activate
-    sheet.Cells.Font.Name = "Calibri"
-    sheet.Cells.Font.Size = 12
-    sheet.Cells.Item(1, 2).value = 'ja'
-    sheet.Cells.Item(2, 2).value = 'other'
-
-    sheet = book.Sheets("properties")
+    sheet = book.Sheets("keys")
     sheet.Activate
     sheet.Cells.Font.Name = "Calibri"
     sheet.Cells.Font.Size = 12
@@ -123,16 +114,8 @@ def writeXLS(html)
     CSV.foreach("#{html}.csv", encoding:"UTF-8") { |row|
       cnum = 1
       next if rnum != 1 && row.map{|d| d.to_s.downcase}.include?(HEADER_INDICATOR)
-      #row.values_at(*COLUMNs).each { |col|
+      
       row.each { |col|
-        case col
-        when 'en', 'EN', 'En','eN'
-          col = 'en'
-        when 'ja', 'JA', 'Ja','jA'
-          col = 'ja'
-        when 'ko', 'KO', 'Ko','kO'
-          col = 'ko'
-        end
         sheet.Cells.Item(rnum, cnum).value = col
         cnum += 1
       }
