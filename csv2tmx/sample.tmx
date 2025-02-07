@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+  <header srclang="en_US" datatype="plaintext"/>
+  <body>
+
+    <tu tuid="myapp.home.button.add">
+      <tuv xml:lang="ja_JP" creationdate="20250207T124321" lastusagedate="20250207T124321">
+        <seg>追加</seg>
+      </tuv>
+      <tuv xml:lang="en_US" creationdate="20250207T124321" lastusagedate="20250207T124321">
+        <seg>Add</seg>
+      </tuv>
+    </tu>
+
+    <tu tuid="myapp.home.button.delete">
+      <tuv xml:lang="ja_JP" creationdate="20250207T124321" lastusagedate="20250207T124321">
+        <seg>削除</seg>
+      </tuv>
+      <tuv xml:lang="en_US" creationdate="20250207T124321" lastusagedate="20250207T124321">
+        <seg>Delete</seg>
+      </tuv>
+    </tu>
+
+    <tu tuid="myapp.home.title.hello">
+      <tuv xml:lang="ja_JP" creationdate="20250207T124321" lastusagedate="20250207T124321">
+        <seg>こんにちは</seg>
+      </tuv>
+      <tuv xml:lang="en_US" creationdate="20250207T124321" lastusagedate="20250207T124321">
+        <seg>Hello</seg>
+      </tuv>
+    </tu>
+
+    <tu tuid="myapp.home.desc.bye">
+      <tuv xml:lang="ja_JP" creationdate="20250207T124321" lastusagedate="20250207T124321">
+        <seg>さようなら</seg>
+      </tuv>
+      <tuv xml:lang="en_US" creationdate="20250207T124321" lastusagedate="20250207T124321">
+        <seg>Bye</seg>
+      </tuv>
+    </tu>
+
+  </body>
+</tmx>
