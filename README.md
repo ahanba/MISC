@@ -41,5 +41,5 @@ It processes CSV files in the current directory and its subdirectories.
    ```  
 3. Run the script.  
 
-> **TIP**  
+> [!TIP]  
 > For details on TMX files and their format, see the [TMX 1.4b specification](https://www.gala-global.org/tmx-14b), [Phrase](https://support.phrase.com/hc/ja/articles/6111346531484--TMX-Strings) and [Transifex](https://help.transifex.com/en/articles/6838724-tmx-files-and-format) documentation.  
