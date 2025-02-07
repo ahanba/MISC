@@ -1,4 +1,8 @@
-# Misc
+# Misc  
+
+## Table of Contents  
+- [htmlTable2XLS.rb](#htmltable2xlsrb)  
+- [csv2tmx.py](#csv2tmxpy)  
 
 ## htmlTable2XLS.rb  
 
@@ -10,7 +14,8 @@ This script converts HTML tables to an XLS file, supporting merged rows and colu
 2. Place the Ruby script in the same folder.  
 3. Run the script.  
 
-## csv2tmx.py
+
+## csv2tmx.py  
 
 ### Description  
 This script converts CSV files to TMX format.  
