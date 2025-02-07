@@ -17,7 +17,7 @@ This script converts HTML tables to an XLSX file, supporting merged rows and col
 2. Save the HTML file to your PC (press **Ctrl+S** in your web browser).  
 3. Place the Python file in the same folder.
 4. Open the Python file in a text editor.  
-5. Update the following value to match your target table headers:  
+5. Update the following value to match your target table header:  
    ```python
    HEADER_INDICATOR = 'HEADER OF YOUR TARGET TABLES'
    ```  
