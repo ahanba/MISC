@@ -67,8 +67,17 @@ This script converts CSV files to TBX format.
 It processes CSV files in the current directory and its subdirectories.  
 
 ### How to Use  
-1. Open the Python file in a text editor.  
-2. Run the script.  
+1. Open the Python file in a text editor.
+2. To edit target languages, edit the following line:
+   ```
+   LANGUAGES = {"ja_JP", "en_US", "zh_CN"}  # List up languages to process
+   ```
+3. To edit the Part Of Speech and Definition columns, edit the following lines to match with the headers of your source CSV:
+   ```
+   definition = row.get("Definition", "")
+   pos = row.get("POS", "")
+   ```
+4. Run the script.  
 
 > [!TIP]  
 > For details on TBX files and their format, see the [TBX specification](https://www.gala-global.org/sites/default/files/migrated-pages/docs/tbx_oscar_0.pdf) and [memoQ](https://docs.memoq.com/9-9/api-docs/wsapi/memoqservices/tbservice.importexport.tbx.html) documentation.  
