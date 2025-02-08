@@ -69,3 +69,6 @@ It processes CSV files in the current directory and its subdirectories.
 ### How to Use  
 1. Open the Python file in a text editor.  
 2. Run the script.  
+
+> [!TIP]  
+> For details on TBX files and their format, see the [TBX specification](https://www.gala-global.org/sites/default/files/migrated-pages/docs/tbx_oscar_0.pdf) and [memoQ](https://docs.memoq.com/9-9/api-docs/wsapi/memoqservices/tbservice.importexport.tbx.html) documentation.  
