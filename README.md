@@ -53,8 +53,8 @@ It processes CSV files in the current directory and its subdirectories.
 This script merges data from multiple JSON files, each containing translations for different languages, into a single CSV file.  
 
 ### How to Use  
-1. Place JSON files in a folder
-2. Run this script
+1. Place JSON files in a folder.
+2. Run this script.
    ```python
    python json2csv.py input_folder output.csv
    ```
