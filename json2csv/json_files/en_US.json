@@ -1,0 +1,32 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York",
+    "email": "john.doe@example.com",
+    "is_student": false,
+    "grades": [85, 92, 78, 95],
+    "address": {
+      "street": "123 Main St",
+      "zip": "10001"
+    },
+    "courses": [
+      {
+        "name": "Introduction to Python",
+        "instructor": "Dr. Smith",
+        "credits": 3
+      },
+      {
+        "name": "Data Structures and Algorithms",
+        "instructor": "Professor Johnson",
+        "credits": 4
+      }
+    ],
+    "interests": ["reading", "hiking", "coding"],
+    "contact": {
+      "phone": "555-123-4567",
+      "social_media": {
+        "twitter": "@johndoe",
+        "linkedin": "linkedin.com/in/johndoe"
+      }
+    }
+  }

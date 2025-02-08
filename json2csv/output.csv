@@ -1,0 +1,14 @@
+Key,en_US,ja_JP,zh_CN
+name,John Doe,ジョン・ドー,约翰·多伊
+age,30,30,30
+city,New York,ニューヨーク,纽约
+email,john.doe@example.com,john.doe@example.com,john.doe@example.com
+is_student,False,False,False
+grades,"[85, 92, 78, 95]","[85, 92, 78, 95]","[85, 92, 78, 95]"
+address.street,123 Main St,メインストリート123番地,主街123号
+address.zip,10001,10001,10001
+courses,"[{'name': 'Introduction to Python', 'instructor': 'Dr. Smith', 'credits': 3}, {'name': 'Data Structures and Algorithms', 'instructor': 'Professor Johnson', 'credits': 4}]","[{'name': 'Python入門', 'instructor': 'スミス博士', 'credits': 3}, {'name': 'データ構造とアルゴリズム', 'instructor': 'ジョンソン教授', 'credits': 4}]","[{'name': 'Python入门', 'instructor': '史密斯博士', 'credits': 3}, {'name': '数据结构与算法', 'instructor': '约翰逊教授', 'credits': 4}]"
+interests,"['reading', 'hiking', 'coding']","['読書', 'ハイキング', 'コーディング']","['阅读', '徒步旅行', '编程']"
+contact.phone,555-123-4567,555-123-4567,555-123-4567
+contact.social_media.twitter,@johndoe,@johndoe,@johndoe
+contact.social_media.linkedin,linkedin.com/in/johndoe,linkedin.com/in/johndoe,linkedin.com/in/johndoe

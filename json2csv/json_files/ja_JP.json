@@ -1,0 +1,32 @@
+{
+    "name": "ジョン・ドー",
+    "age": 30,
+    "city": "ニューヨーク",
+    "email": "john.doe@example.com",
+    "is_student": false,
+    "grades": [85, 92, 78, 95],
+    "address": {
+      "street": "メインストリート123番地",
+      "zip": "10001"
+    },
+    "courses": [
+      {
+        "name": "Python入門",
+        "instructor": "スミス博士",
+        "credits": 3
+      },
+      {
+        "name": "データ構造とアルゴリズム",
+        "instructor": "ジョンソン教授",
+        "credits": 4
+      }
+    ],
+    "interests": ["読書", "ハイキング", "コーディング"],
+    "contact": {
+      "phone": "555-123-4567",
+      "social_media": {
+        "twitter": "@johndoe",
+        "linkedin": "linkedin.com/in/johndoe"
+      }
+    }
+  }

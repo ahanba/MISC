@@ -1,0 +1,32 @@
+{
+    "name": "约翰·多伊",
+    "age": 30,
+    "city": "纽约",
+    "email": "john.doe@example.com",
+    "is_student": false,
+    "grades": [85, 92, 78, 95],
+    "address": {
+      "street": "主街123号",
+      "zip": "10001"
+    },
+    "courses": [
+      {
+        "name": "Python入门",
+        "instructor": "史密斯博士",
+        "credits": 3
+      },
+      {
+        "name": "数据结构与算法",
+        "instructor": "约翰逊教授",
+        "credits": 4
+      }
+    ],
+    "interests": ["阅读", "徒步旅行", "编程"],
+    "contact": {
+      "phone": "555-123-4567",
+      "social_media": {
+        "twitter": "@johndoe",
+        "linkedin": "linkedin.com/in/johndoe"
+      }
+    }
+  }

@@ -3,6 +3,7 @@
 ## Table of Contents  
 - [htmlTable2XLS](#htmltable2xls)  
 - [csv2tmx](#csv2tmx)  
+- [json2csv](#json2csv)  
 
 ## htmlTable2XLS  
 
@@ -45,3 +46,15 @@ It processes CSV files in the current directory and its subdirectories.
 
 > [!TIP]  
 > For details on TMX files and their format, see the [TMX 1.4b specification](https://www.gala-global.org/tmx-14b), [Phrase](https://support.phrase.com/hc/ja/articles/6111346531484--TMX-Strings) and [Transifex](https://help.transifex.com/en/articles/6838724-tmx-files-and-format) documentation.  
+  
+## json2csv  
+
+### Description  
+This script merges multi-language JSON files to single CSV file.  
+
+### How to Use  
+1. Place JSON files into a folder
+2. Run this script
+   ```python
+   python json2csv.py input_folder output.csv
+   ```
