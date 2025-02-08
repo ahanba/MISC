@@ -104,6 +104,7 @@ class HTMLTableConverter:
             with open(html_file, "r", encoding="utf-8") as file:
                 soup = BeautifulSoup(file, "html.parser")
 
+            # Edit here to change tables to select
             all_tables = soup.select("div.table-wrap div.table-block table")
             tables = [table for table in all_tables if self._has_required_header(table)]
             
