@@ -50,7 +50,7 @@ It processes CSV files in the current directory and its subdirectories.
 ## json2csv  
 
 ### Description  
-This script merges multi-language JSON files to single CSV file.  
+This script merges data from multiple JSON files, each containing translations for different languages, into a single CSV file.  
 
 ### How to Use  
 1. Place JSON files into a folder
