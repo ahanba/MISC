@@ -2,8 +2,9 @@
 
 ## Table of Contents  
 - [htmlTable2XLS](#htmltable2xls)  
-- [csv2tmx](#csv2tmx)  
-- [json2csv](#json2csv)  
+- [csv2tmx](#csv2tmx)
+- [json2csv](#json2csv)
+- [csv2tbx](#csv2tbx)  
 
 ## htmlTable2XLS  
 
@@ -58,3 +59,13 @@ This script merges data from multiple JSON files, each containing translations f
    ```python
    python json2csv.py input_folder output.csv
    ```
+
+## csv2tbx  
+
+### Description  
+This script converts CSV files to TBX format.  
+It processes CSV files in the current directory and its subdirectories.  
+
+### How to Use  
+1. Open the Python file in a text editor.  
+2. Run the script.  
