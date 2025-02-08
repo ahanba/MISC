@@ -23,6 +23,8 @@ This script converts HTML tables to an XLSX file, supporting merged rows and col
    ```  
 6. Run the script.
 
+> [!TIP]
+> Edit the following to change tables to select: ```all_tables = soup.select("div.table-wrap div.table-block table")```
    
 ## csv2tmx  
 
