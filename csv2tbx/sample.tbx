@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<!DOCTYPE martif SYSTEM "TBXcoreStructV02.dtd">
+<martif type="TBX" xml:lang="en">
+<martifHeader>
+<encodingDesc>
+<p type="XCSURI">http://www.lisa.org/fileadmin/standards/tbx/TBXXCSV02.XCS</p>
+</encodingDesc>
+</martifHeader>
+<text>
+<body>
+
+<termEntry>
+<descrip type="Creator">sample.csv</descrip>
+<descrip type="xDate_CreateTime">2025-02-08T08:47:38.148468Z</descrip>
+<descrip type="definition">this is definition 1</descrip>
+
+<langSet xml:lang="ja_JP">
+<tig>
+<term>追加</term>
+<termNote type="partOfSpeech">verb</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="en_US">
+<tig>
+<term>Add</term>
+<termNote type="partOfSpeech">verb</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="zh_CN">
+<tig>
+<term>添加</term>
+<termNote type="partOfSpeech">verb</termNote>
+</tig>
+</langSet>
+</termEntry>
+
+<termEntry>
+<descrip type="Creator">sample.csv</descrip>
+<descrip type="xDate_CreateTime">2025-02-08T08:47:38.148468Z</descrip>
+<descrip type="definition">this is definition 2</descrip>
+
+<langSet xml:lang="ja_JP">
+<tig>
+<term>削除</term>
+<termNote type="partOfSpeech">noun</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="en_US">
+<tig>
+<term>Delete</term>
+<termNote type="partOfSpeech">noun</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="zh_CN">
+<tig>
+<term>删除</term>
+<termNote type="partOfSpeech">noun</termNote>
+</tig>
+</langSet>
+</termEntry>
+
+<termEntry>
+<descrip type="Creator">sample.csv</descrip>
+<descrip type="xDate_CreateTime">2025-02-08T08:47:38.148468Z</descrip>
+<descrip type="definition">this is definition 3</descrip>
+
+<langSet xml:lang="ja_JP">
+<tig>
+<term>こんにちは</term>
+<termNote type="partOfSpeech">verb</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="en_US">
+<tig>
+<term>Hello</term>
+<termNote type="partOfSpeech">verb</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="zh_CN">
+<tig>
+<term>您好</term>
+<termNote type="partOfSpeech">verb</termNote>
+</tig>
+</langSet>
+</termEntry>
+
+<termEntry>
+<descrip type="Creator">sample.csv</descrip>
+<descrip type="xDate_CreateTime">2025-02-08T08:47:38.148468Z</descrip>
+<descrip type="definition">this is definition 4</descrip>
+
+<langSet xml:lang="ja_JP">
+<tig>
+<term>さようなら</term>
+<termNote type="partOfSpeech">verb</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="en_US">
+<tig>
+<term>Bye</term>
+<termNote type="partOfSpeech">verb</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="zh_CN">
+<tig>
+<term>再见</term>
+<termNote type="partOfSpeech">verb</termNote>
+</tig>
+</langSet>
+</termEntry>
+
+<termEntry>
+<descrip type="Creator">sample.csv</descrip>
+<descrip type="xDate_CreateTime">2025-02-08T08:47:38.148468Z</descrip>
+<descrip type="definition">this is definition 5</descrip>
+
+<langSet xml:lang="ja_JP">
+<tig>
+<term>ジョン・ドー</term>
+<termNote type="partOfSpeech">properNoun</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="en_US">
+<tig>
+<term>John Doe</term>
+<termNote type="partOfSpeech">properNoun</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="zh_CN">
+<tig>
+<term>约翰·多伊</term>
+<termNote type="partOfSpeech">properNoun</termNote>
+</tig>
+</langSet>
+</termEntry>
+
+<termEntry>
+<descrip type="Creator">sample.csv</descrip>
+<descrip type="xDate_CreateTime">2025-02-08T08:47:38.148468Z</descrip>
+<descrip type="definition">this is definition 6</descrip>
+
+<langSet xml:lang="ja_JP">
+<tig>
+<term>ニューヨーク</term>
+<termNote type="partOfSpeech">properNoun</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="en_US">
+<tig>
+<term>New York</term>
+<termNote type="partOfSpeech">properNoun</termNote>
+</tig>
+</langSet>
+
+<langSet xml:lang="zh_CN">
+<tig>
+<term>纽约</term>
+<termNote type="partOfSpeech">properNoun</termNote>
+</tig>
+</langSet>
+</termEntry>
+</body>
+</text>
+</martif>

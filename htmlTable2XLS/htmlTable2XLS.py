@@ -30,20 +30,30 @@ class HTMLTableConverter:
                   for header in headers)
 
     def _get_cell_text(self, cell) -> str:
-        """Extract text from a cell, handling paragraphs and other elements."""
-        # Get only the direct text of this cell, not its children
+        """
+        Extract text from a cell, handling paragraphs and other elements.
+        Adds newlines between paragraphs and properly handles other content.
+        """
         texts = []
         for content in cell.contents:
             if isinstance(content, str):
                 text = content.strip()
                 if text:
                     texts.append(text)
-            elif content.name in ['p', 'li', 'pre', 'a']:
+            elif content.name in ['p', 'li', 'pre']:
+                # For paragraph tags, add the text and ensure a newline follows
+                text = content.get_text(strip=True)
+                if text:
+                    texts.append(text + '\n')
+            elif content.name == 'a':
                 text = content.get_text(strip=True)
                 if text:
                     texts.append(text)
         
-        return html.unescape(' '.join(texts))
+        # Join with empty string since we're already handling spacing
+        # Remove trailing newline if it exists
+        result = ''.join(texts).rstrip()
+        return html.unescape(result)
 
     def _extract_table_data(self, table) -> List[List[str]]:
         """
@@ -104,7 +114,6 @@ class HTMLTableConverter:
             with open(html_file, "r", encoding="utf-8") as file:
                 soup = BeautifulSoup(file, "html.parser")
 
-            # Edit here to change tables to select
             all_tables = soup.select("div.table-wrap div.table-block table")
             tables = [table for table in all_tables if self._has_required_header(table)]
             
@@ -113,7 +122,7 @@ class HTMLTableConverter:
                 return None
 
             with open(csv_filename, "w", encoding="utf-8", newline="") as csvfile:
-                writer = csv.writer(csvfile)
+                writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
 
                 for table in tables:
                     table_data = self._extract_table_data(table)
