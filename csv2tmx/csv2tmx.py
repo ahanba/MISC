@@ -60,6 +60,7 @@ def process_csv_file(file_path, tmx_file_path, key_id, source_lang, target_lang)
         print(f"Error processing {file_path}: {e}")
 
 def main():
+    # Specify key, source, and target language headers
     key_id = "key"
     source_lang = "ja_JP"
     target_lang = "en_US"
