@@ -1,43 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header srclang="en_US" datatype="plaintext"/>
+  <header srclang="ja_JP" datatype="plaintext"/>
   <body>
-
-    <tu tuid="myapp.home.button.add">
-      <tuv xml:lang="ja_JP" creationdate="20250207T124321" lastusagedate="20250207T124321">
-        <seg>追加</seg>
-      </tuv>
-      <tuv xml:lang="en_US" creationdate="20250207T124321" lastusagedate="20250207T124321">
-        <seg>Add</seg>
-      </tuv>
-    </tu>
-
-    <tu tuid="myapp.home.button.delete">
-      <tuv xml:lang="ja_JP" creationdate="20250207T124321" lastusagedate="20250207T124321">
-        <seg>削除</seg>
-      </tuv>
-      <tuv xml:lang="en_US" creationdate="20250207T124321" lastusagedate="20250207T124321">
-        <seg>Delete</seg>
-      </tuv>
-    </tu>
-
-    <tu tuid="myapp.home.title.hello">
-      <tuv xml:lang="ja_JP" creationdate="20250207T124321" lastusagedate="20250207T124321">
-        <seg>こんにちは</seg>
-      </tuv>
-      <tuv xml:lang="en_US" creationdate="20250207T124321" lastusagedate="20250207T124321">
-        <seg>Hello</seg>
-      </tuv>
-    </tu>
-
-    <tu tuid="myapp.home.desc.bye">
-      <tuv xml:lang="ja_JP" creationdate="20250207T124321" lastusagedate="20250207T124321">
-        <seg>さようなら</seg>
-      </tuv>
-      <tuv xml:lang="en_US" creationdate="20250207T124321" lastusagedate="20250207T124321">
-        <seg>Bye</seg>
-      </tuv>
-    </tu>
-
+  <tu>
+    <prop type="x-segment-id">myapp.home.button.add</prop>
+    <prop type="x-previous-source-text"></prop>
+    <prop type="x-next-source-text">削除</prop>
+    <tuv xml:lang="ja_JP" creationdate="20250210T111732" lastusagedate="20250210T111732">
+      <seg>追加</seg>
+    </tuv>
+    <tuv xml:lang="en_US" creationdate="20250210T111732" lastusagedate="20250210T111732">
+      <seg>Add &amp;</seg>
+    </tuv>
+  </tu>
+  <tu>
+    <prop type="x-segment-id">myapp.home.button.delete</prop>
+    <prop type="x-previous-source-text">追加</prop>
+    <prop type="x-next-source-text">こんにちは</prop>
+    <tuv xml:lang="ja_JP" creationdate="20250210T111732" lastusagedate="20250210T111732">
+      <seg>削除</seg>
+    </tuv>
+    <tuv xml:lang="en_US" creationdate="20250210T111732" lastusagedate="20250210T111732">
+      <seg>Delete</seg>
+    </tuv>
+  </tu>
+  <tu>
+    <prop type="x-segment-id">myapp.home.title.hello</prop>
+    <prop type="x-previous-source-text">削除</prop>
+    <prop type="x-next-source-text">さようなら</prop>
+    <tuv xml:lang="ja_JP" creationdate="20250210T111732" lastusagedate="20250210T111732">
+      <seg>こんにちは</seg>
+    </tuv>
+    <tuv xml:lang="en_US" creationdate="20250210T111732" lastusagedate="20250210T111732">
+      <seg>Hello &lt;foo&gt;</seg>
+    </tuv>
+  </tu>
+  <tu>
+    <prop type="x-segment-id">myapp.home.desc.bye</prop>
+    <prop type="x-previous-source-text">こんにちは</prop>
+    <prop type="x-next-source-text"></prop>
+    <tuv xml:lang="ja_JP" creationdate="20250210T111732" lastusagedate="20250210T111732">
+      <seg>さようなら</seg>
+    </tuv>
+    <tuv xml:lang="en_US" creationdate="20250210T111732" lastusagedate="20250210T111732">
+      <seg>Bye</seg>
+    </tuv>
+  </tu>
   </body>
 </tmx>

@@ -1,5 +1,5 @@
 key,ja_JP,en_US,zh_CN
-myapp.home.button.add,追加,Add,添加
+myapp.home.button.add,追加,Add &,添加
 myapp.home.button.delete,削除,Delete,删除
-myapp.home.title.hello,こんにちは,Hello,您好
+myapp.home.title.hello,こんにちは,Hello <foo>,您好
 myapp.home.desc.bye,さようなら,Bye,再见
