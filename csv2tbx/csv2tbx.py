@@ -3,6 +3,7 @@ import csv
 from datetime import datetime
 import pytz
 from pathlib import Path
+from xml.sax.saxutils import escape
 
 # Constants
 TBX_HEADER = """<?xml version='1.0'?>
@@ -37,8 +38,8 @@ def convert_csv_to_tbx(csv_path, tbx_path, iso_time):
         tbxfile.write(TBX_HEADER)
         
         for row in reader:
-            definition = row.get("Definition", "")
-            pos = row.get("POS", "")
+            definition = escape(row.get("Definition", ""))
+            pos = escape(row.get("POS", ""))
             
             tbxfile.write(f"""
 <termEntry>
@@ -50,10 +51,10 @@ def convert_csv_to_tbx(csv_path, tbx_path, iso_time):
             for lang, term in row.items():
                 if lang in LANGUAGES and term:
                     tbxfile.write(f"""
-<langSet xml:lang="{lang}">
+<langSet xml:lang="{escape(lang)}">
 <tig>
-<term>{term}</term>
-<termNote type="partOfSpeech">{pos}</termNote>
+<term>{escape(term)}</term>
+<termNote type="partOfSpeech">{escape(pos)}</termNote>
 </tig>
 </langSet>
 """)
