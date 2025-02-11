@@ -4,7 +4,8 @@
 - [htmlTable2XLS](#htmltable2xls)  
 - [csv2tmx](#csv2tmx)
 - [json2csv](#json2csv)
-- [csv2tbx](#csv2tbx)  
+- [csv2tbx](#csv2tbx)
+- [mergexls](#mergexls)  
 
 ## htmlTable2XLS  
 
@@ -81,3 +82,17 @@ It processes CSV files in the current directory and its subdirectories.
 
 > [!TIP]  
 > For details on TBX files and their format, see the [TBX specification](https://www.gala-global.org/sites/default/files/migrated-pages/docs/tbx_oscar_0.pdf) and [memoQ](https://docs.memoq.com/9-9/api-docs/wsapi/memoqservices/tbservice.importexport.tbx.html) documentation.  
+
+## mergexls  
+
+### Description  
+This script unzip a ZIP file containing XLS files, and then merge the XLS files into one XLS file.  
+Column A and B are used as keys to match multiple XLS files.  
+
+### How to Use  
+1. Install required packages.
+   ```python
+   pip install pandas openpyxl
+   ```
+2. Place a ZIP file and the Python file in the same folder.
+3. Run the script.
